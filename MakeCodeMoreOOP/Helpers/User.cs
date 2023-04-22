@@ -1,4 +1,7 @@
-﻿namespace MakeCodeMoreOOP.Helpers
+﻿using MakeCodeMoreOOP.Implementations;
+using System.Reflection;
+
+namespace MakeCodeMoreOOP.Helpers
 {
     public class User
     {

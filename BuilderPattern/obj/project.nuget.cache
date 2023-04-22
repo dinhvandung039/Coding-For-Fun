@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KFg5Ml0Fw13WWhY+lhKlvWxNl7AKbKb9EyHXEGX7CpSQiQF29AkSM3KWtbK0+qeLEI3eBs+VTvsXRG0RLz7tkA==",
+  "dgSpecHash": "nQkThtb2fDpIuC7xoANRZ4djOLFzTsQWudIIyZl9zONsL6aEKX53lTQw+BErMV791uDjOGpv0DnoFgPN10eNiA==",
   "success": true,
   "projectFilePath": "D:\\C#\\Tutorials\\DesignPatterns\\Decorator-Wrapper-Pattern\\BuilderPattern\\BuilderPattern.csproj",
   "expectedPackageFiles": [

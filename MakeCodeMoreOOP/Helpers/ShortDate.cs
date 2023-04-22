@@ -1,4 +1,6 @@
-﻿namespace MakeCodeMoreOOP.Helpers
+﻿using MakeCodeMoreOOP.Interfaces;
+
+namespace MakeCodeMoreOOP.Helpers
 {
     public class ShortDate : IValueFormatter
     {

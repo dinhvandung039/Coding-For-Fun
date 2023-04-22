@@ -10,7 +10,7 @@ namespace MakeCodeMoreOOP.Repository
         {
         }
 
-        public bool CreateAsync(User user)
+        public bool Create(User user)
         {
             try
             {

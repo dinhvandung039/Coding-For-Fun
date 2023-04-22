@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "RealisticDependencies/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/RealisticDependencies.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RealisticDependencies.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "RealisticDependencies/1.0.0": {
+      "type": "project",
+      "path": "../RealisticDependencies/RealisticDependencies.csproj",
+      "msbuildProject": "../RealisticDependencies/RealisticDependencies.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "RealisticDependencies >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\C#\\Tutorials\\DesignPatterns\\Decorator-Wrapper-Pattern\\RealisticDependencies\\RealisticDependencies.csproj": {
+              "projectPath": "D:\\C#\\Tutorials\\DesignPatterns\\Decorator-Wrapper-Pattern\\RealisticDependencies\\RealisticDependencies.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -61,7 +84,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

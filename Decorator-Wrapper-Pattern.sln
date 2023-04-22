@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPattern", "Creati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{477A1C88-CFF1-44EE-80ED-BFAB0D832FB3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RealisticDependencies", "RealisticDependencies", "{743253CB-699D-41D0-BEFD-C8BEB25ABED1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{743253CB-699D-41D0-BEFD-C8BEB25ABED1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealisticDependencies", "RealisticDependencies\RealisticDependencies.csproj", "{8F07BFEF-27AA-4094-9BED-767C681A8FDE}"
 EndProject
@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "BuilderPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{ADD2CAFB-04CD-4D0E-A1D6-06F771132DB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeCodeMoreOOP", "MakeCodeMoreOOP\MakeCodeMoreOOP.csproj", "{5BF75D2A-536B-48E8-8691-76E6F0B5B0E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakeCodeMoreOOP", "MakeCodeMoreOOP\MakeCodeMoreOOP.csproj", "{5BF75D2A-536B-48E8-8691-76E6F0B5B0E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

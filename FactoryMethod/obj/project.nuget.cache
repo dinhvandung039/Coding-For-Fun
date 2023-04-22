@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/zHJ3M5RXw20sGRB4xKqO5Ib0+pFsiKUG8QE8dwbkLDOyEuRkdrq8+i5YhSObHqPc+rvz7C7iTyDAfX4tackTA==",
+  "dgSpecHash": "TuYqonHYmOJatXcN+4yqRIqym1mvrThIUca4b48PJRHVMq50AoMSVC4r87CkrmRI+NFLsWKDkE1dl5kKZYkk2g==",
   "success": true,
   "projectFilePath": "D:\\C#\\Tutorials\\DesignPatterns\\Decorator-Wrapper-Pattern\\FactoryMethod\\FactoryMethod.csproj",
   "expectedPackageFiles": [
