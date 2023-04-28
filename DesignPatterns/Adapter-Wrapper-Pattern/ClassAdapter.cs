@@ -1,4 +1,5 @@
-﻿using SendGrid;
+﻿using Adapter_Wrapper_Pattern.BussinessLogic;
+using SendGrid;
 using SendGrid.Helpers.Mail;
 
 namespace Adapter_Wrapper_Pattern

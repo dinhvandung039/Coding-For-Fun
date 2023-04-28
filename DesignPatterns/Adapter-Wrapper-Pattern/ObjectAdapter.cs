@@ -1,4 +1,5 @@
-﻿using SendGrid;
+﻿using Adapter_Wrapper_Pattern.BussinessLogic;
+using SendGrid;
 using SendGrid.Helpers.Mail;
 
 namespace Adapter_Wrapper_Pattern
@@ -17,3 +18,6 @@ namespace Adapter_Wrapper_Pattern
         }
     }
 }
+
+// Adapter - ObjectAdapter
+// Adaptee - NotifyUsers

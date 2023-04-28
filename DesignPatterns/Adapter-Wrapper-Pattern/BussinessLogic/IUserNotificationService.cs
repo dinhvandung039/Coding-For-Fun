@@ -1,4 +1,4 @@
-﻿namespace Adapter_Wrapper_Pattern
+﻿namespace Adapter_Wrapper_Pattern.BussinessLogic
 {
     public interface IUserNotificationService
     {

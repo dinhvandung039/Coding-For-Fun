@@ -1,10 +1,10 @@
-﻿namespace Adapter_Wrapper_Pattern
+﻿namespace Adapter_Wrapper_Pattern.BussinessLogic
 {
-    public class BitcoinEvent
+    public class EmployeeFiredEvent
     {
         private readonly IUserNotificationService userNF;
 
-        public BitcoinEvent(IUserNotificationService userNF)
+        public EmployeeFiredEvent(IUserNotificationService userNF)
         {
             this.userNF = userNF;
         }
