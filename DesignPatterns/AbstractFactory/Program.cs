@@ -3,6 +3,9 @@ using AbstractFactory.Interfaces;
 using RealisticDependencies.Implementations;
 using RealisticDependencies.Interfaces;
 
+/// One of the downsides of this approach is that it is fairly complex for small use cases, though
+/// it does promote extensibility (Open / Closed principle - open for extension, closed for modification)
+
 var logger = new ConsoleLogger();
 
 logger.LogInfo("Please enter customer email.");

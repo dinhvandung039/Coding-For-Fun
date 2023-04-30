@@ -3,6 +3,10 @@ using BuilderPattern.Builders.Implementations;
 using BuilderPattern.Builders.Models;
 using RealisticDependencies.Implementations;
 
+
+///One of the design benefits of the Builder Pattern is that the algorithms for constructing
+/// an object are independent of the parts that make up the object and how they're assembled.
+/// 
 var customOrder = new FluentPurchaseOrderBuilder();
 
 var items = new List<LineItem>()
