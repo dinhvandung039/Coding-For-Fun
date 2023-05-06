@@ -1,4 +1,5 @@
 ﻿using AbstractFactory.Implementations;
+using AbstractFactory.Interfaces;
 using RealisticDependencies.Interfaces;
 
 namespace FacadePattern
@@ -16,13 +17,13 @@ namespace FacadePattern
     /// </summary>
     public class InventoryManager : IInventoryManager
     {
-        private readonly ISendsEmails _emailer;
+        private readonly ISendEmail _emailer;
         private readonly IAmqpQueue _queue;
         private readonly IDatabase _database;
         private readonly IRecipesApi _recipesApi;
 
         public InventoryManager(
-            ISendsEmails emailer,
+            ISendEmail emailer,
             IAmqpQueue queue,
             IDatabase database,
             IRecipesApi recipesApi)
