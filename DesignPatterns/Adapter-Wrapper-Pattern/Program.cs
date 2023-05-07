@@ -7,7 +7,8 @@ using RealisticDependencies.Implementations;
 /// of allowing the API dependency to just continue working as it needs to while changing the
 /// interface of our Adapter to match what's needed here in the client.
 /// 
-
+/// Complexity: 1
+/// Popularity: 3
 var logger = new ConsoleLogger();
 
 logger.LogInfo("👩‍🍳  Aggregating Recipes from the API...");

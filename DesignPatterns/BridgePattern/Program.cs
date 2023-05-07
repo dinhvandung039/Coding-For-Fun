@@ -14,6 +14,8 @@ using BridgePattern;
 
 // This example uses the Bridge Pattern to separate high-level abstractions from implementation details.
 
+/// Complexity: 3
+/// Popularity: 1
 Console.WriteLine("🧑‍🌾  Welcome to the Farmer's Market!");
 
 const string organicGardens = "Organic Gardens";
