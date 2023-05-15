@@ -40,4 +40,14 @@ static IMealPlanFactory GetFactoryForDietType(string dietType, IApplicationLogge
         "keto" => new KetoMealPlanFactory(logger),
         "vegetarian" => new VegetarianMealPlanFactory(logger),
         _ => new VegetarianMealPlanFactory(logger)
-    }; ;
+    };
+
+
+// abstract factory without if else statement
+List<IPosition> positions = new();
+positions.Add(Factory.Create<Manager>());
+positions.Add(Factory.Create<Clerk>());
+positions.Add(Factory.Create<Programmer>());
+
+foreach (IPosition p in positions) { Console.WriteLine(p.Title); }
+Console.WriteLine();
